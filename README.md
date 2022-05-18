@@ -1,4 +1,4 @@
-# oss-db-silver-practice
+# oss-db-silver-docker
 
 OSS-DB Silverの学習用docker-compose.yamlです。
 
