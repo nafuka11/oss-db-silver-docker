@@ -4,9 +4,15 @@ OSS-DB Silverの学習用docker-compose.yamlです。
 
 ## 使い方
 
-### コンテナを作成し、起動する
+### コンテナを作成し、バックグラウンドで実行する
 ```bash
 docker compose up -d
+```
+
+### コンテナ内でコマンドを実行する
+```bash
+docker compose exec db bash
+docker compose exec db psql -U postgres
 ```
 
 ### コンテナとネットワークの削除
